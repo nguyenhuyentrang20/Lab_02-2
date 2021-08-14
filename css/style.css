@@ -1,0 +1,87 @@
+header, section, footer, aside, nav,
+article, figure, figcaption {
+    display: block;}
+body {
+    color: #666666;
+    background-color: #f9f8f6;
+    background-image: url("../images/dark-wood.jpg");
+    background-position: center;
+    font-family: Georgia, Times, serif;
+    line-height: 1.4em;
+    margin: 0px;}
+
+.wrapper {
+    width: 940px;
+    margin: 20px auto 20px auto;
+    border: 2px solid #000000;
+    background-color: #ffffff;}
+
+header {
+    height: 160px;
+    background-image: url(../images/header.jpg);
+}
+.menu{
+    left: 0;
+    padding: 10px;
+    margin-top: -10px;
+    background: #666666;
+    color: #fff;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+.menu ul li {
+    display: inline;
+    padding: 5px;
+  }
+  .menu ul li.active{
+      color: #000;
+  }
+
+  .content{
+      padding: 20px;
+  }
+
+.content .content__cnt{
+    display: flex;
+    width: 600px;
+}
+.content .content__cnt .content__title{
+    padding-left: 10px;
+}
+.content .content__cnt .content__title h3{
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+.content .content__cnt .content__title h4{
+    color: red;
+}
+.content{
+    display: flex;
+}
+.content .content__footer{
+    padding-left: 30px;
+}
+.content .content__footer .content__footer__1{
+    color: red;
+}
+.content .content__footer .content__footer__1 h3{
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+.content .content__footer .content__footer__2 h3{
+    color: red;
+    font-size: 1.5rem;
+    font-weight: 550;
+    line-height: 0.1rem;
+}
+.footer{
+    height: 50px;
+    background: #666666;
+    color: #fff;
+    padding-left: 20px;
+    padding-top: 1px;
+}
